@@ -95,9 +95,9 @@ main[b-c9nve5igob] {
 }
 /* /Pages/SparringScoringTool.razor.rz.scp.css */
 @media screen and (orientation: landscape) {
-	overflow-y: hidden;
-	overscroll-behavior: none;
-	user-scalable=no;
+	overflow-y: hidden !important;
+	overscroll-behavior: none !important;
+	user-scalable:no !important;
 	.rotate-device-warning[b-lbjqhigccr] {
 		display: none;
 	}
