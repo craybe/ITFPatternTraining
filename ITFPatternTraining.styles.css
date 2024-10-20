@@ -104,10 +104,16 @@ main[b-c9nve5igob] {
 	.rotate-device-warning[b-lbjqhigccr] {
 		display: block;
 		width: 100%;
-		background-color: #278CB7;
+		background-color: #29B727;
 		padding: 10px;
 		border: 2px solid red;
 	}
+}
+
+body {
+	overflow-y: hidden !important;
+	overscroll-behavior: none !important;
+	user-scalable:no !important;
 }
 
 @media only screen and (orientation: landscape) {
