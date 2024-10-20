@@ -79,9 +79,6 @@ main[b-c9nve5igob] {
 
 /* /Pages/ScoringTool.razor.rz.scp.css */
 @media screen and (orientation: landscape) {
-	overflow-y: hidden;
-	overscroll-behavior: none;
-	user-scalable=no
 	.rotate-device-warning[b-b002tslbgb] {
 		display: none;
 	}
@@ -98,6 +95,9 @@ main[b-c9nve5igob] {
 }
 /* /Pages/SparringScoringTool.razor.rz.scp.css */
 @media screen and (orientation: landscape) {
+	overflow-y: hidden;
+	overscroll-behavior: none;
+	user-scalable=no;
 	.rotate-device-warning[b-lbjqhigccr] {
 		display: none;
 	}
@@ -107,7 +107,7 @@ main[b-c9nve5igob] {
 	.rotate-device-warning[b-lbjqhigccr] {
 		display: block;
 		width: 100%;
-		background-color: red;
+		background-color: #B6269D;
 		padding: 10px;
 		border: 2px solid red;
 	}
