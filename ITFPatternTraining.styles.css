@@ -87,13 +87,14 @@ main[b-c9nve5igob] {
 	.rotate-device-warning[b-b002tslbgb] {
 		display: block;
 		width: 100%;
-		background-color: lightyellow;
+		background-color: lightred;
 		padding: 10px;
 		border: 2px solid red;
 	}
 }
 /* /Pages/SparringScoringTool.razor.rz.scp.css */
 @media screen and (orientation: landscape) {
+	overscroll-behavior: none;
 	.rotate-device-warning[b-lbjqhigccr] {
 		display: none;
 	}
